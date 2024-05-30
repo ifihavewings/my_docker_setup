@@ -64,10 +64,10 @@ services:
     container_name: mysql_container
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: my_database
-      MYSQL_USER: my_user
-      MYSQL_PASSWORD: my_password
+      MYSQL_ROOT_PASSWORD: root@123
+      MYSQL_DATABASE: test_db
+      MYSQL_USER: sv
+      MYSQL_PASSWORD: root@123
     volumes:
       - ./mysql/my.cnf:/etc/mysql/my.cnf
       - ./mysql/data:/var/lib/mysql
