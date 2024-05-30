@@ -22,3 +22,16 @@ services:
     restart: always
     ports:
       - "6379:6379"
+      
+  nginx:
+      image: nginx:latest
+      container_name: nginx_container
+      restart: always
+      volumes:
+        - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+        - ./nginx/conf.d:/etc/nginx/conf.d
+        - ./nginx/html:/usr/share/nginx/html
+        - ./nginx/logs:/var/log/nginx
+      ports:
+        - "80:80"
+        - "443:443"
