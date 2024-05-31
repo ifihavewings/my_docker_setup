@@ -1,0 +1,1 @@
+import{d as a,o,j as r,k as e,w as s,l as n,e as t,R as c,A as i}from"./index-u68fL4fj.js";const p=a({__name:"TsApi",setup(u){return(_,f)=>(o(),r("div",null,[e(t(c),{to:"/ts/interface"},{default:s(()=>[n("interface")]),_:1}),e(t(i))]))}});export{p as default};

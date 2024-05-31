@@ -1,0 +1,1 @@
+import{i as r,W as e,o as c,j as s,k as o,w as a,l as _}from"./index-u68fL4fj.js";const i={};function l(d,u){const t=e("router-link"),n=e("RouterView");return c(),s("div",null,[o(t,{to:"/demo/jump-by-keyword"},{default:a(()=>[_("文档内搜索并滚动至位置")]),_:1}),o(n)])}const p=r(i,[["render",l]]);export{p as default};

@@ -1,0 +1,1 @@
+import{i as c,y as s,z as t,o as a,j as o,l as r}from"./index-u68fL4fj.js";const i={},_={class:"aaa"};function d(n,l){const e=s("shadow");return t((a(),o("div",_,[r(" 123 ")])),[[e]])}const f=c(i,[["render",d],["__scopeId","data-v-6ce6db58"]]);export{f as default};
